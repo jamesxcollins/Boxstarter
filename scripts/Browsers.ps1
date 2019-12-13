@@ -1,4 +1,5 @@
 #--- Browsers ---
 choco install -y googlechrome
 choco install -y firefox
-choco install -y brave
+# Brave package causing some problems. Comment out for now.
+# choco install -y brave
