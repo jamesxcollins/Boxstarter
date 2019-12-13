@@ -20,6 +20,7 @@ function executeScript {
 
 executeScript "SystemConfig.ps1";
 executeScript "FileExplorerSettings.ps1";
+executeScript "Browsers.ps1";
 
 #--- reenabling critial items ---
 Enable-UAC
