@@ -18,6 +18,7 @@ function executeScript {
 	iex ((new-object net.webclient).DownloadString("$helperUri/$script"))
 }
 
+executeScript "SystemConfig.ps1";
 executeScript "FileExplorerSettings.ps1";
 
 #--- reenabling critial items ---
