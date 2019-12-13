@@ -18,12 +18,7 @@ function executeScript {
 	iex ((new-object net.webclient).DownloadString("$helperUri/$script"))
 }
 
-##### Install Software #####
-
-# Install browsers
-choco install -y brave
-choco install -y firefox
-choco install -y googlechrome
+executeScript "FileExplorerSettings.ps1";
 
 #--- reenabling critial items ---
 Enable-UAC
