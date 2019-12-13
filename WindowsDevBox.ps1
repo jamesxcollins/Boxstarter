@@ -22,6 +22,7 @@ executeScript "SystemConfig.ps1";
 executeScript "FileExplorerSettings.ps1";
 executeScript "Browsers.ps1";
 executeScript "CommonDevTools.ps1";
+executeScript "SqlTools.ps1";
 
 # Enable critical items 
 Enable-UAC
