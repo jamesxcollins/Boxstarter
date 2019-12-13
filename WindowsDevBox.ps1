@@ -22,7 +22,10 @@ executeScript "SystemConfig.ps1";
 executeScript "FileExplorerSettings.ps1";
 executeScript "Browsers.ps1";
 
-#--- reenabling critial items ---
+# Enable critical items 
 Enable-UAC
 Enable-MicrosoftUpdate
 Install-WindowsUpdate -acceptEula
+
+# Final restart
+Restart-Computer
