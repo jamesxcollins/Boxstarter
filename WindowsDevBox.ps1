@@ -25,6 +25,8 @@ executeScript "CommonDevTools.ps1";
 executeScript WindowsExtras.ps1
 executeScript "SqlTools.ps1";
 
+choco install -y powershell-core
+
 # Enable critical items 
 Enable-UAC
 Enable-MicrosoftUpdate
