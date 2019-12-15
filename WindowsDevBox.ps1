@@ -25,6 +25,7 @@ executeScript "CommonDevTools.ps1";
 executeScript WindowsExtras.ps1
 executeScript "SqlTools.ps1";
 
+# Powershell install at the end so that it doenst cause issues with the rest of the script
 choco install -y powershell-core
 
 # Enable critical items 
