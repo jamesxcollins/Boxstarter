@@ -32,6 +32,3 @@ choco install -y powershell-core
 Enable-UAC
 Enable-MicrosoftUpdate
 Install-WindowsUpdate -acceptEula
-
-# Final restart
-Restart-Computer
