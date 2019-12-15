@@ -11,3 +11,7 @@ While browsing from Edge or Internet Explorer, click one of the links below:
 * Login to Visual Studio
 * Configure git certificate
 * Create Ubuntu WSL user
+* Pin apps to start menu
+* One Drive login/setup
+* Desktop backgrounds
+* Graphical settings
