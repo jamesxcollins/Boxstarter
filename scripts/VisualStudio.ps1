@@ -1,5 +1,5 @@
 # Install Visual Studio and workloads
-choco install -y visualstudio2019professional
+choco install -y visualstudio2019enterprise
 choco install -y visualstudio2019-workload-azure
 choco install -y visualstudio2019-workload-data
 choco install -y visualstudio2019-workload-manageddesktop
