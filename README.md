@@ -8,6 +8,7 @@ While browsing from Edge or Internet Explorer, click one of the links below:
 
 ## Manual Steps/Candidates For Future Scripting
 * Login to browsers
+* Apply product key to Visual Studio
 * Login to Visual Studio
 * Configure git certificate
 * Create Ubuntu WSL user
