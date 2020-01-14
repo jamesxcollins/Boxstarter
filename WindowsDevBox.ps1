@@ -21,8 +21,8 @@ function executeScript {
 executeScript "SystemConfig.ps1";
 executeScript "FileExplorerSettings.ps1";
 executeScript "Browsers.ps1";
-executeScript "CommonDevTools.ps1";
 executeScript "WindowsExtras.ps1";
+executeScript "CommonDevTools.ps1";
 executeScript "SqlTools.ps1";
 executeScript "AzureClient.ps1";
 executeScript "VisualStudio.ps1";
